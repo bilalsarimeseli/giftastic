@@ -1,0 +1,50 @@
+body {
+    background-image: url(background-circles.png);
+    font-family:'Righteous', cursive;
+    color: white;
+}
+
+.topic {
+    margin: 10px;
+   }
+
+.buttons-view {
+    border-radius: 25px;
+    border: 3px solid wheat;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+h6 {
+    font-style: italic;
+    color: rgb(240, 255, 244);
+}
+
+.topic {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(226, 160, 37);
+}
+
+.car-name{
+    margin: 20px;
+    float: left;
+}
+
+p {
+    color:papayawhip;
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: 2px;
+}
+
