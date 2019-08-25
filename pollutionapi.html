@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unsplash API</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        
+        //Tutorial part
+        
+        
+        // URL: https://api.unsplash.com/
+        
+        
+        //https://api.unsplash.com/photos/?client_id=YOUR_ACCESS_KEY// client ID
+        
+        //$.getJSON('https://api.unsplash.com/photos/?client_id=6cf717349a1ccca4fe41b91342aebacdbf151277599bf1dddfac7bd37671d803');
+        
+        
+        
+        $( document ).ready(function() {
+        console.log( "ready!" );
+        
+        var queryURL = 'https:api.unsplash.com/photos/?client_id=6cf717349a1ccca4fe41b91342aebacdbf151277599bf1dddfac7bd37671d803'
+    $.ajax({url: queryURL, method: "GET"})
+     .done(function(response){
+         console.log(response);
+     });
+    });
+        </script>
+</body>
+</html>
+
+
+
